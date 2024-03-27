@@ -5,7 +5,7 @@
 > - This is a bit more reliable than logging-in on those "**Instagram Follower**" apps you get in the **Appstore/IOS store**. Also avoids you getting hacked as a bonus.
 > - Just a heads-up, while using the automated way of opening the unfollowers URLs **Instagram** has some funky rules in place, including temporary rate limits on actions like opening Instagram URLs and searching for them. This usually clears up after a few hours.
 > - So I would recommend avoiding the "**Open unfollowers**" functionality from the app and just copying the names manually from the app console and pasting each one inside of your **profile -> following -> (Insert the name in the search bar) -> manually click unfollow.** in order to avoid the rate limit functionality on Instagram.
-> - Your anti-virus might block the exe.
+> - Your anti-virus might block the exe, to avoid this if you have Visual Studio just build the application your self using the provided files in the rep.
 > - If you have a better implementation/optimizations to the current solution please send a PR, thanks :)
 
 ## How to use this aplication:

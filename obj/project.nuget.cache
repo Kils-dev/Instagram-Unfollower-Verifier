@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Xw9aw7PwjS7VMosKPfrGzz49+dIrWCn6we2tNWbkhvRjzZcTQTvbfxBmzam7nj4DJ5UsshM2uETcssxguQ59Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kila160\\source\\repos\\Instagram unfollower verifier\\Instagram-Unfollower-verifier\\Instagram-Unfollower-verifier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kila160\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Kila160\\.nuget\\packages\\ookii.dialogs.wpf\\5.0.1\\ookii.dialogs.wpf.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

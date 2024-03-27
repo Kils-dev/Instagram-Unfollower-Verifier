@@ -1,0 +1,54 @@
+﻿<Window x:Class="Instagram_Unfollower_verifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Instagram_Unfollower_verifier"
+        mc:Ignorable="d"
+        Title="Insta Unfollower Verifier" Height="530" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF212121">
+        <TextBox x:Name="OUTPUTCONSOLE" HorizontalAlignment="Center" Margin="0,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="780" Height="301" IsReadOnly="True" Background="#BF545454" Foreground="White" BorderThickness="3" VerticalScrollBarVisibility="Auto"/>
+        <Button x:Name="BTN_COMPARE" Content="Compare Follow/Unfollow" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Height="64" Width="152" IsEnabled="False" Click="BTN_COMPARE_Click"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="10,0,0,0" VerticalAlignment="Top" Width="229" Source="https://freepngimg.com/thumb/instagram/122275-logo-instagram-hq-image-free.png"/>
+        <Button x:Name="BTN_BROWSEFOLDER" Content="Browse folder source" HorizontalAlignment="Left" Margin="311,12,0,0" VerticalAlignment="Top" Height="20" Width="124" Click="BTN_BROWSEFOLDER_Click"/>
+        <Button x:Name="BTN_CLEARCONSOLE" Content="Clear Console" HorizontalAlignment="Left" Margin="10,466,0,0" VerticalAlignment="Top" Height="20" Width="84" Click="BTN_CLEARCONSOLE_Click"/>
+        <Label Content="Tool by Kils-dev" HorizontalAlignment="Left" Margin="671,463,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button Content="📢" HorizontalAlignment="Left" Margin="646,466,0,0" VerticalAlignment="Top" Width="25" Click="Button_Click" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="TXT_CUSTOMAMOUNT" HorizontalAlignment="Left" Margin="322,131,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="62" Height="20" Background="#BF545454" Foreground="White" TextAlignment="Center"/>
+        <Button x:Name="BTN_OPENALL" Content="Open unfollowers (all) **Avoid Using**" HorizontalAlignment="Left" Margin="167,106,0,0" VerticalAlignment="Top" Height="20" Width="217" IsEnabled="False" Click="BTN_OPENALL_Click">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </Button>
+        <Button x:Name="BTN_OPENCUSTOM" Content="Open unfollowers (custom)" HorizontalAlignment="Left" Margin="167,131,0,0" VerticalAlignment="Top" Height="20" Width="150" IsEnabled="False" Click="BTN_OPENCUSTOM_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="TXT_FOLDERSOURCE" HorizontalAlignment="Left" Margin="440,12,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="339" Height="20" Background="#BF545454" Foreground="White" IsReadOnly="True"/>
+        <TextBox x:Name="EXEPTIONLIST" HorizontalAlignment="Left" Margin="533,52,0,0" Text="Example1&#x0a;Example2&#x0a;Example3&#x0a;Etc" VerticalAlignment="Top" Width="249" Height="99" Background="#BF545454" Foreground="White" BorderThickness="3" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" AcceptsReturn="True" FontSize="11"/>
+        <Label Content="User Exeption List (add only 1 user per line):" HorizontalAlignment="Left" Margin="529,31,0,0" VerticalAlignment="Top" Foreground="White" Width="250"/>
+        <Button x:Name="BTN_LOADLIST" Content="Load List" HorizontalAlignment="Left" Margin="464,131,0,0" VerticalAlignment="Top" Height="20" Width="64" Click="BTN_LOADLIST_Click"/>
+        <Button x:Name="BTN_SAVELIST" Content="Save List" HorizontalAlignment="Left" Margin="464,106,0,0" VerticalAlignment="Top" Height="20" Width="64" Click="BTN_SAVELIST_Click"/>
+        <Label Content="Insta Unfollower" HorizontalAlignment="Left" Margin="84,18,0,0" VerticalAlignment="Top" Foreground="White" Width="106" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="VERIFIER" HorizontalAlignment="Left" Margin="97,32,0,0" VerticalAlignment="Top" FontSize="15" Width="80" FontWeight="Bold" FontStyle="Italic">
+            <Label.Foreground>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC9389A"/>
+                    <GradientStop Color="#FFFBDE84" Offset="0.492"/>
+                </RadialGradientBrush>
+            </Label.Foreground>
+        </Label>
+
+    </Grid>
+</Window>

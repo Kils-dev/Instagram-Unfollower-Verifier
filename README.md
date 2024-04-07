@@ -33,8 +33,8 @@
 > - You can setup an Exeption List if you want using the provided "**User Exeption List**" text field.
 > - You may also save this list for later use.
 > - In case you made any changes to the "**User Exeption List**", either by saving or loading your list, make sure to click the "**Compare Follow/Unfollow button**" again.
-7. Either use the "**Open unfollowers (all)**" (**_NOT RECOMMENDED BY ME, SPECIALLY FOR BIG LISTS_**) or "**Open unfollowers (custom)**".
-8. After that, you can manually click the unfollow button when the Instagram page opens in your browser.
+15. Either use the "**Open unfollowers (all)**" (**_NOT RECOMMENDED BY ME, SPECIALLY FOR BIG LISTS_**) or "**Open unfollowers (custom)**".
+16. After that, you can manually click the unfollow button when the Instagram page opens in your browser.
 
 ## DISCLAIMER:
 > [!CAUTION]

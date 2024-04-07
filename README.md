@@ -5,21 +5,30 @@
 > - This is a bit more reliable than logging-in on those "**Instagram Follower**" apps you get in the **Appstore/IOS store**. Also avoids you getting hacked as a bonus.
 > - Just a heads-up, while using the automated way of opening the unfollowers URLs **Instagram** has some funky rules in place, including temporary rate limits on actions like opening Instagram URLs and searching for them. This usually clears up after a few hours.
 > - So I would recommend avoiding the "**Open unfollowers**" functionality from the app and just copying the names manually from the app console and pasting each one inside of your **profile -> following -> (Insert the name in the search bar) -> manually click unfollow.** in order to avoid the rate limit functionality on Instagram.
-> - Your anti-virus might block the exe, to avoid this if you have Visual Studio just build the application your self using the provided files in the rep.
+> - Your anti-virus might block the exe.
 > - If you have a better implementation/optimizations to the current solution please send a PR, thanks :)
 
 ## How to use this aplication:
-1. Follow the guide bellow to download the required file:
-   - https://help.instagram.com/181231772500920?cms_id=181231772500920
+1. On your browser be logged-in to your instagram account.
+2. Go to: https://accountscenter.instagram.com/info_and_permissions/
+3. Click "**Your information and permissions**".
+4. Click "**Download your information**", wait a bit and click on "**Download your information**" again.
+5. Select your **Instagram account**.
+6. Select "Some of your information".
+7. Scroll down and select "Followers and following".
+8. Select "Download to device".
+9. The range should be "all time" so it downloads your "Followers and following" from the start to now.
+
 > [!WARNING]
 > - Make sure the download format is <b>JSON</b> and not <b>HTML</b>.
 > - You will only need to select followers and unfollowers, nothing else.
+> - Guide that was used to download the required file: https://help.instagram.com/181231772500920?cms_id=181231772500920
 
-2. Extract the folder anywhere you like.
-3. Open the <b>"Instagram Unfollower Verifier"</b> application.
-4. Using the <b>browse button</b>, select the folder path where the JSON files are visible.
-5. After the console shows "**[🛈INFO]: Found the required files following.json and followers_1.json**" you may proceed to step 6.
-6. Click the "**Compare Follow/Unfollow button**". This will save a file with the current date the action was executed.
+10. Extract the folder anywhere you like.
+11. Open the <b>"Instagram Unfollower Verifier"</b> application.
+12. Using the <b>browse button</b>, select the folder path where the JSON files are visible.
+13. After the console shows "**[🛈INFO]: Found the required files following.json and followers_1.json**" you may proceed to step 6.
+14. Click the "**Compare Follow/Unfollow button**". This will save a file with the current date the action was executed.
 > [!TIP]
 > - You can setup an Exeption List if you want using the provided "**User Exeption List**" text field.
 > - You may also save this list for later use.
